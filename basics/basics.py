@@ -1,4 +1,3 @@
-
 # =============================
 # Variables & Naming variables
 #
@@ -7,9 +6,9 @@
 # =============================
 
 # One line
-firstName, age = "Marlon", 20
+first_name, age = "Marlon", 20
 
-lastName = "Braga"
+last_name = "Braga"
 pi = 3.14
 
 # Lists
@@ -21,8 +20,8 @@ full_name = "Steve K"
 CAPACITY = 100
 
 print("Hello Marlon")
-print(firstName)
-print(lastName)
+print(first_name)
+print(last_name)
 print(number)
 
 # =============================
@@ -31,15 +30,15 @@ print(number)
 
 city = "New York"
 count = 1
-halfCount = 0.5
+half_count = 0.5
 guests = []
-isTrue = False
+is_true = False
 
 print(type(city))
 print(type(count))
-print(type(halfCount))
+print(type(half_count))
 print(type(guests))
-print(type(isTrue))
+print(type(is_true))
 
 """
 RETURN value from above print
@@ -55,14 +54,16 @@ RETURN value from above print
 # =============================
 
 # Variables
-firstN: str = "Tom"
-isTall: bool = True
-tomAge: int = 22
+first_n: str = "Tom"
+is_tall: bool = True
+tom_age: int = 22
+
 
 # Functions
-def helloTom() -> str:
+def hello_tom() -> str:
     return "Hello, Tom!"
 
+
 # The convention is to declare implicit variables and functions
-def hisAge():
-    return tomAge
+def his_age():
+    return tom_age
